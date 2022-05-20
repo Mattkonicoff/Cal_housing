@@ -23,7 +23,7 @@ df_housing = df_housing[df_housing.ocean_proximity.isin(location_filter)]
 if income_filter == 'Low':
     df_housing = df_housing[(df_housing.median_income <= 2.5)]
 elif income_filter == 'Medium':
-    df_housing = df_housing[(df_housing.median_income < 2.5)] & (df_housing.median_income < 4.5)]
+    df_housing = df_housing[(df_housing.median_income < 2.5)] & [(df_housing.median_income < 4.5)]
 else:
     df_housing = df_housing[(df_housing.median_income >= 4.5)] 
     
