@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 plt.style.use('seaborn')
 
 st.title('California Housing Data (1990) by Matthew Konicoff')
